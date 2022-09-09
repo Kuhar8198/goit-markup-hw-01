@@ -1,0 +1,50 @@
+
+/* колір заголовків #212121  */
+/* колір основного тексту #757575 */
+/* Білий #FFFFFF */
+/* акцент #2196F3 */
+/* колір фону F5F5F5 */
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color)
+}
+
+.list{
+    list-style: none;
+}
+/* Шапка сайту */
+.header-nav .link{
+    color: var(--title-text-color);
+}
+.header-nav .link:hover,
+.header-nav .link:focus{
+    color: var(--accent-text-color);
+}
+
+.header-nav .link.curent{
+    color: var(--accent-text-color);
+}
+
+.section-title{
+    color: var(--title-text-color);
+}
+
+.about-us .title{
+    color: var(--title-text-color);
+}
+
+.our-team .title{
+    color: var(--title-text-color);
+}
+
+/* Button */
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+}
